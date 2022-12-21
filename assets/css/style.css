@@ -1,3 +1,33 @@
+header {
+    background: #002e4f;
+}
+
 .card img {
     max-height: 350;
+    height: 260px;
+}
+
+.card:hover {
+	border: 1px solid #000;
+	transition: 0.5s;
+}
+
+section h1.display-4 {
+    font-size: 3em;
+}
+
+footer .navbar-nav a:hover {
+	color: #028ef0;
+}
+footer .container .row .social-media a i {
+	color: #028ef0;
+}
+footer .container .row .social-media a i:hover {
+	color: #000;
+	transition: 0.5s;
+}
+
+#googleMap {
+	width:100%;
+	height: 400px;
 }
